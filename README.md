@@ -1,5 +1,5 @@
 # My Portfolio
 
-My portfolio website build in ## HTML ## CSS and ## JS
+My portfolio website build using pure HTML CSS and JS.
 
 
