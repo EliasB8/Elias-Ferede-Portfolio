@@ -131,13 +131,43 @@ h2 {
 
 .project-image {
   width: 100%;
-  height: 380px;
+  min-height: 90%;
   text-align: right;
-  object-fit: cover;
-  display: inline-block;
+  display: block;
   overflow: hidden;
   transition: all 0.3s ease;
-  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.view-code {
+  text-decoration: none;
+  background-color: transparent;
+  display: block;
+  color: white;
+}
+
+.view-code-text {
+  display: inline-block;
+  width: 100%;
+  background-color: #ff4d00;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in;
+  font-size: 1.15rem;
+}
+
+.view-code-text i {
+  color: #ff4d00;
+  transition: all 0.3s ease-in;
+}
+
+.view-code:hover i {
+  color: white;
+}
+
+.view-code:hover {
+  box-shadow: 0 5px 8px #777;
 }
 
 .my-button {
@@ -245,7 +275,6 @@ h2 {
   display: flex;
   justify-content: space-evenly;
   width: 70%;
-  height: auto;
   max-width: 90%;
   margin-top: 5rem;
 }
@@ -335,6 +364,18 @@ h2 {
   .profile-picture {
     width: 180px;
     height: 180px;
+  }
+
+  .contact-section-header>h2 {
+    font-size: 2.5rem;
+  }
+
+  .contact-section-header>span {
+    font-size: 1rem;
+  }
+
+  .contact-links {
+    margin-top: 2rem;
   }
 }
 
