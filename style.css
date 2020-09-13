@@ -297,7 +297,7 @@ h2 {
 
 }
 
-@media(max-width: 600px) {
+@media screen and (max-width: 600px) {
   .welcome-section {
     height: 90vh;
     padding: 2rem;
@@ -310,6 +310,31 @@ h2 {
 
   #type-writer {
     font-size: 2rem;
+  }
+
+  .profile-picture {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 900px) and (orientation:landscape) {
+
+  .welcome-section {
+    height: 95vh;
+  }
+
+  .welcome-section h1 {
+    font-size: 1.75rem;
+  }
+
+  #type-writer {
+    font-size: 1.35rem;
+  }
+
+  .profile-picture {
+    width: 180px;
+    height: 180px;
   }
 }
 
