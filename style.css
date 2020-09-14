@@ -131,43 +131,12 @@ h2 {
 
 .project-image {
   width: 100%;
-  min-height: 90%;
+  min-height: 300px;
   text-align: right;
   display: block;
-  overflow: hidden;
+  object-fit: cover;
   transition: all 0.3s ease;
   margin-bottom: 0;
-}
-
-.view-code {
-  text-decoration: none;
-  background-color: transparent;
-  display: block;
-  color: white;
-}
-
-.view-code-text {
-  display: inline-block;
-  width: 100%;
-  background-color: #ff4d00;
-  padding: 0.75rem;
-  box-sizing: border-box;
-  text-transform: uppercase;
-  transition: all 0.3s ease-in;
-  font-size: 1.15rem;
-}
-
-.view-code-text i {
-  color: #ff4d00;
-  transition: all 0.3s ease-in;
-}
-
-.view-code:hover i {
-  color: white;
-}
-
-.view-code:hover {
-  box-shadow: 0 5px 8px #777;
 }
 
 .my-button {
@@ -177,7 +146,7 @@ h2 {
   color: #ff4d00;
   width: 200px;
   padding: 0.5rem;
-  margin: 1.5rem 0;
+  margin: 0.5rem 0;
   display: block;
   border: 2px solid #ff4d00;
   border-radius: 30px;
@@ -231,6 +200,7 @@ h2 {
   transition: all 0.3s ease-in;
   border-radius: 1.1rem;
   margin: 0 auto;
+  margin-bottom: 3rem;
 }
 
 .btn-show-all fa-chevron-right {
@@ -249,6 +219,7 @@ h2 {
   transform: translateX(5px);
 }
 
+
 /*  contact section */
 .contact-section {
   display: flex;
@@ -265,6 +236,20 @@ h2 {
 .contact-section-header>h2 {
   font-size: 3.25rem;
   padding: 1.25rem;
+}
+
+.resume {
+  padding: 1rem;
+}
+
+.resume a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.resume a:hover {
+  color: var(--main-orange);
 }
 
 .contact-section-header>span {
